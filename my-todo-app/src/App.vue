@@ -1,7 +1,5 @@
 <script setup>
-// Import the TodoList component (à créer par l’étudiant)
 import TodoList from './components/TodoList.vue'
-
 
 </script>
 

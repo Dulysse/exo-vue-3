@@ -1,7 +1,7 @@
 {
   "name": "logic-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercise set for candidate logic and TypeScript assessment",
   "homepage": "https://github.com/Dulysse/exo-vue-3#readme",
   "bugs": {
     "url": "https://github.com/Dulysse/exo-vue-3/issues"
@@ -15,9 +15,13 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "dev": "tsx index.ts"
+    "dev": "tsx index.ts",
+    "start": "tsx index.ts",
+    "check": "tsc --noEmit index.ts"
   },
   "devDependencies": {
-    "tsx": "^4.20.6"
+    "@types/node": "^22.20.3",
+    "tsx": "^4.20.6",
+    "typescript": "^7.0.2"
   }
 }
